@@ -4,7 +4,7 @@
 
 int main()
 {
-
+	
 	char charr[20];
 	std::string str;
 
@@ -16,7 +16,7 @@ int main()
 	std::cin.getline(charr, 20);
 	std::cout << "You entered: " << charr << std::endl;
 	std::cout << "Enter another line of text: \n";
-	getline(cin, str); //cin now an argument; no lenght specifier
+	std::getline(std::cin, str); //cin now an argument; no lenght specifier
 	std::cout << "You entered: " << str << std::endl;
 	std::cout << "Lenght of string in charr alter input: "
 	          << strlen(charr) << std::endl;
